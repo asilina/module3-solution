@@ -10,7 +10,7 @@ body {
 #header-nav {
   background-color: #ffffff;
   border-radius: 0;
-  border: 1px solid #000;   /* thin line under header like in sketch */
+  border: 2px solid #000;   
 }
 
 .navbar {
