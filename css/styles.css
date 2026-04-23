@@ -49,7 +49,7 @@ body {
 
 /* "Our Menu" title */
 #main-content h2 {
-  font-size: 1.8em;
+
   font-weight: bold;
   margin-bottom: 25px;
 }
@@ -70,4 +70,10 @@ body {
 /* Body text */
 #main-content .col-xs-12 p {
   margin: 0;
+}
+
+@media (min-width: 992px) #main-content {
+  background-color: #ffffff;   
+  padding: 20px 20px;
+  margin-top: 0;
 }
