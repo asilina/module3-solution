@@ -43,11 +43,12 @@ body {
   margin-top: 0;
 }
 
-#main-content h1{
+#main-content h1 {
   margin-bottom: 30;
 }
+
 /* "Our Menu" title */
-#main-content > p.text-center {
+#main-content h2 {
   font-size: 1.8em;
   font-weight: bold;
   margin-bottom: 25px;
