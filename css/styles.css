@@ -26,7 +26,7 @@ body {
   margin: 0;
   font-size: 2em;
   font-weight: bold;
-  color: #000;              /* black text like wireframe */
+  color: #000;              
 }
 
 .navbar-brand a,
@@ -38,11 +38,14 @@ body {
 
 /* Main content */
 #main-content {
-  background-color: #ffffff;   /* white content area */
+  background-color: #ffffff;   
   padding: 30px 40px;
   margin-top: 0;
 }
 
+#main-content h1{
+  margin-bottom: 30;
+}
 /* "Our Menu" title */
 #main-content > p.text-center {
   font-size: 1.8em;
