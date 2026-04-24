@@ -36,6 +36,10 @@ body {
   text-decoration: none;
 }
 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+
 /* Main content */
 #main-content {
   background-color: #ffffff;   
@@ -46,6 +50,13 @@ body {
 #main-content h1 {
   margin-bottom: 30px;
 }
+
+@media (min-width: 992px) {
+  #main-content {
+  padding: 20px 20px;
+ }
+}
+
 
 /* "Our Menu" title */
 #main-content h2 {
@@ -72,8 +83,5 @@ body {
   margin: 0;
 }
 
-@media (min-width: 992px) {
-  #main-content {
-  padding: 20px 20px;
- }
-}
+
+
