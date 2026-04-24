@@ -40,6 +40,18 @@ body {
   border: 1px solid #000;
 }
 
+
+
+@media (max-width: 767px) { 
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  }
+
+
 /* Main content */
 #main-content {
   background-color: #ffffff;   
